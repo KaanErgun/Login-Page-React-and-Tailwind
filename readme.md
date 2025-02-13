@@ -55,11 +55,21 @@ npm run build
 ## Folder Structure
 ```
 ├── src/                # Contains the source code of the application
+│   ├── components/     # Reusable React components
+│   ├── pages/          # Page components for routing
+│   ├── assets/         # Static assets like images and fonts
+│   ├── styles/         # Global styles and Tailwind configurations
+│   ├── hooks/          # Custom React hooks
+│   ├── utils/          # Utility functions
 ├── public/             # Contains static assets and the index.html file
+├── .gitignore          # Git ignore file
+├── .eslintrc.js        # ESLint configuration
 ├── tailwind.config.js  # Configuration file for Tailwind CSS
 ├── postcss.config.js   # Configuration file for PostCSS
+├── tsconfig.json       # TypeScript configuration
 ├── package.json        # Lists project dependencies and scripts
 ├── vite.config.ts      # Vite configuration file
+├── README.md           # Project documentation
 ```
 
 ## Contributing
