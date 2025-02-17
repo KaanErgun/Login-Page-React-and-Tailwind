@@ -28,18 +28,25 @@ This project is a responsive login page built using React and Tailwind CSS. It l
 ### Installation
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/KaanErgun/Login-Page-React-and-Tailwind.git
-   ```
+   ```sh
+
 2. Navigate to the project directory:
+
    ```sh
    cd Login-Page-React-and-Tailwind
    ```
+
 3. Install dependencies:
+
    ```sh
    npm install
    ```
+
    or, if you prefer yarn:
+
    ```sh
    yarn install
    ```
@@ -47,21 +54,24 @@ This project is a responsive login page built using React and Tailwind CSS. It l
 ## Running the Application
 
 To start the development server, run:
+
 ```sh
 npm run dev
 ```
+
 This will launch the application and you can view it in your browser at `http://localhost:3000` (or the port specified by Vite).
 
 ## Building for Production
 
 To create an optimized production build, run:
+
 ```sh
 npm run build
 ```
 
 ## Folder Structure
 
-```
+```null
 ├── src/                # Contains the source code of the application
 │   ├── components/     # Reusable React components
 │   ├── pages/          # Page components for routing
@@ -97,4 +107,3 @@ This project is open source and available under the MIT License.
 
 - Inspired by modern UI/UX design trends.
 - Thanks to the open-source community for the amazing tools and frameworks used in this project.
-
